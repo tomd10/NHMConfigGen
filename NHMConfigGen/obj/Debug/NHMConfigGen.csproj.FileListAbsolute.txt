@@ -1,0 +1,8 @@
+C:\Users\tomas\source\repos\NHMConfigGen\NHMConfigGen\bin\Debug\NHMConfigGen.exe.config
+C:\Users\tomas\source\repos\NHMConfigGen\NHMConfigGen\bin\Debug\NHMConfigGen.exe
+C:\Users\tomas\source\repos\NHMConfigGen\NHMConfigGen\bin\Debug\NHMConfigGen.pdb
+C:\Users\tomas\source\repos\NHMConfigGen\NHMConfigGen\obj\Debug\NHMConfigGen.csproj.AssemblyReference.cache
+C:\Users\tomas\source\repos\NHMConfigGen\NHMConfigGen\obj\Debug\NHMConfigGen.csproj.SuggestedBindingRedirects.cache
+C:\Users\tomas\source\repos\NHMConfigGen\NHMConfigGen\obj\Debug\NHMConfigGen.csproj.CoreCompileInputs.cache
+C:\Users\tomas\source\repos\NHMConfigGen\NHMConfigGen\obj\Debug\NHMConfigGen.exe
+C:\Users\tomas\source\repos\NHMConfigGen\NHMConfigGen\obj\Debug\NHMConfigGen.pdb

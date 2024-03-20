@@ -1,0 +1,7 @@
+Config file for NHM v1.0
+DEVICE@@@@Router1@@@@r1.chabada.cz@@@@22@@@@admin@@@@cisco@@@@enable secret cisco####configure terminal
+CONDITION@@@@Počet interfaců@@@@7@@@@show ip int br@@@@5@@@@@@@@
+CONDITION@@@@Verze@@@@2@@@@show version@@@@5@@@@5@@@@@@@@
+DEVICE@@@@Switch1@@@@sw1.chabada.cz@@@@2222@@@@admin@@@@travicka@@@@enable secret admin
+CONDITION@@@@G0/0/0 down@@@@13@@@@sh ip int br | inc GigabitEthernet 0/0/0@@@@5@@@@7@@@@down@@@@@@@@
+CONDITION@@@@Uptime@@@@6@@@@show version | inc weeks@@@@2@@@@2@@@@10@@@@show ip int br@@@@drop table@@@@ @@@@True@@@@True
