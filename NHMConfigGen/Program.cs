@@ -264,7 +264,7 @@ namespace NHMConfigGen
         start:
             int ret;
             string choice = re(s);
-            if (choice == "") ret = 0;
+            if (choice == "") ret = def;
             else
             {
                 bool result = int.TryParse(choice, out ret);
