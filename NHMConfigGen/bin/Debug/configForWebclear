@@ -1,4 +1,0 @@
-Config file for NHM v1.0
-DEVICE@@@@Router1@@@@r1.chabada.cz@@@@22@@@@udrzba@@@@managementPassword@@@@enable secret cisco
-CONDITION@@@@Podm1@@@@7@@@@show ip int br@@@@5@@@@@@@@
-CONDITION@@@@Podm2@@@@11@@@@show version@@@@5@@@@7@@@@3@@@@down@@@@@@@@@@@@@@@@True

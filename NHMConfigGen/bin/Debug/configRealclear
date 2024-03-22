@@ -1,7 +1,0 @@
-Config file for NHM v1.0
-DEVICE@@@@Router1@@@@172.27.13.50@@@@22@@@@admin@@@@admin@@@@
-CONDITION@@@@Show version@@@@2@@@@show version@@@@0@@@@3@@@@@@@@
-CONDITION@@@@E0/0 up@@@@11@@@@show ip int br | inc Ethernet0/0@@@@5@@@@5@@@@0@@@@up@@@@@@@@@@@@@@@@True
-DEVICE@@@@Router2@@@@172.27.13.51@@@@22@@@@admin@@@@adminn@@@@
-CONDITION@@@@Version@@@@1@@@@show version@@@@6@@@@7@@@@0@@@@@@@@@@@@@@@@True
-DEVICE@@@@NeexistujiciDevice@@@@172.27.13.52@@@@22@@@@admin@@@@admin@@@@

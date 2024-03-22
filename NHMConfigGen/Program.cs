@@ -8,6 +8,7 @@ using System.Security.Cryptography;
 using System.Threading;
 using static System.Net.Mime.MediaTypeNames;
 using System.Collections.Specialized;
+using System.Security;
 
 namespace NHMConfigGen
 {
@@ -74,7 +75,7 @@ namespace NHMConfigGen
                 }
 
                 string choice4 = readStr("Username [admin]: ", "admin");
-                string choice5 = re("Password: ");
+                string  choice5 = re("Password: ");
                 string choice6 = re("Init commands, separate by ####");
 
                 string cmd = "DEVICE"+sep+choice2+sep+choice3+sep+ port + sep + choice4+sep+choice5+sep+choice6;
@@ -372,5 +373,6 @@ namespace NHMConfigGen
         {
             return readBool("Trim non-numerical characters? [Y/n]", true);
         }
+
     }
 }
