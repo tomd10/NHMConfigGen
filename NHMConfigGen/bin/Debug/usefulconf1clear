@@ -1,0 +1,6 @@
+Config file for NHM v1.0
+DEVICE@@@@Router 1@@@@172.27.13.50@@@@22@@@@admin@@@@admin@@@@
+CONDITION@@@@Uptime@@@@2@@@@sh ver | inc uptime@@@@0@@@@0@@@@@@@@
+CONDITION@@@@E0/1 interface@@@@13@@@@show int e0/1 | inc .@@@@0@@@@0@@@@up@@@@@@@@
+CONDITION@@@@VPN clients@@@@9@@@@show crypto ike sa@@@@0@@@@@@@@
+CONDITION@@@@E0/1 input rate@@@@5@@@@show int e0/1 | inc input rate@@@@5@@@@0@@@@0@@@@@@@@show ip int br@@@@ @@@@True@@@@True

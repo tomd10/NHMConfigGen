@@ -232,6 +232,7 @@ namespace NHMConfigGen
             }
             else if (choice1 == "end" || choice1 == "e")
             {
+                if (lines.Count == 0) return;
                 string text = String.Join("\n", lines.ToArray());
                 string key = re("AES key (ASCII, 0-16 chars): ");
 
@@ -239,7 +240,8 @@ namespace NHMConfigGen
                 byte[] ciphertext = AesEncryption.Encrypt(text, aesKey, aesKey);
                 string ciphertextstr = Model.ByteArrToString(ciphertext);
 
-                string path2 = re("Path to destination file: ");
+                string path2 = readStr("Path to destination file [conf.nhm]: ", "conf.nhm");
+
 
                 File.WriteAllText(path2, ciphertextstr);
                 File.WriteAllText(path2 + "clear", text);
