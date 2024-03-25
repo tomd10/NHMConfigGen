@@ -233,7 +233,7 @@ namespace NHMConfigGen
             }
             else if (choice1 == "end" || choice1 == "e")
             {
-                if (lines.Count == 0) return;
+                if (lines.Count == 1) return;
                 string text = String.Join("\n", lines.ToArray());
                 string key = re("AES key (ASCII, 0-16 chars): ");
 
